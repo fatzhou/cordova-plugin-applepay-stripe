@@ -43,7 +43,7 @@
 
         <!-- Stripe iOS Framework -->
         <!-- Downloaded here: https://github.com/stripe/stripe-ios/releases/latest -->
-        <framework src="src/ios/libs/Stripe.framework" custom="true" />
+        <framework src="Stripe"   type="podspec" spec="~> 17.0.1" />
     </platform>
 
 </plugin>
